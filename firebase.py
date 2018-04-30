@@ -7,7 +7,7 @@ push_service = FCMNotification(api_key="AAAAN6nlb4k:APA91bHxb_WUirlGQjXKhYGCyFgT
 
 # Your api-key can be gotten from:  https://console.firebase.google.com/project/<project-name>/settings/cloudmessaging
 
-registration_id = "ehjTfV661II:APA91bGCJpucn-TaK96DgWiQcCEbU1-erSaWAGE_lkTGyMWbEDFu6hMLHXXwFjbFIQ2HUAypQgZkMwIIBRIKbhJTYomOwyM_t9kYZS521CmYFl8C_vmCvFp1nrPfiU-Qzfn-GgBteIu5"
+registration_id = "cHJUNmCDXA0:APA91bE67420iQzEEQ3CBoYnsuPzF_B8Jxe1vUXnKPDeIiHTet1NOCaFQNa3GqLClt1kRrYNggFvTTKK8Q6KlH2-kiqNxAkWukKc2XbSawlLQFkPi1o21j8PfCIVarSkXNi4_82lqeXj"
 message_title = "Hello"
 message_body = "FireMessage"
 result = push_service.notify_single_device(registration_id=registration_id, message_title=message_title, message_body=message_body)
